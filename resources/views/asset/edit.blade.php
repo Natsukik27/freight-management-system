@@ -58,15 +58,21 @@
                                 </select>
                                 <div class="invalid-feedback">Please select an asset group.</div>
                             </div>
-                        </div>
 
-                        <!-- Right Column -->
-                        <div class="col-md-6 ps-4 border-start">
                             <div class="mb-4">
                                 <label class="form-label fw-semibold">Unit <span class="text-danger">*</span></label>
                                 <input type="text" class="form-control form-control-sm" name="unit" value="Unit" required>
                                 <div class="invalid-feedback">Please provide a unit.</div>
                             </div>
+                        </div>
+
+                        <!-- Right Column -->
+                        <div class="col-md-6 ps-4 border-start">
+                            {{-- <div class="mb-4">
+                                <label class="form-label fw-semibold">Unit <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control form-control-sm" name="unit" value="Unit" required>
+                                <div class="invalid-feedback">Please provide a unit.</div>
+                            </div> --}}
 
                             <div class="mb-4">
                                 <label class="form-label fw-semibold">Upload Image</label>
