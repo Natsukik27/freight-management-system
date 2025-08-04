@@ -24,6 +24,10 @@ Route::get('/asset/add', function () {
     return view('asset.add');
 })->name('asset.add');
 
+Route::put('/asset/update/{id}', function ($id) {
+    return redirect()->route('asset.index')->with('success', 'Asset Successfully Added');
+})->name('asset.update');
+
 // Show
 Route::get('/asset/show/{id}', function ($id) {
     return view('asset.show', ['id' => $id]);
